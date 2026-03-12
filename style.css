@@ -117,13 +117,15 @@ body {
 
 /* TRENDING SECTION */
 .trending {
-    padding: 80px 0;
+    border-top: 2px solid red;
+    padding: 30px 0;
     background-color: #000;
 }
 
 .trending h2 {
     font-size: 2rem;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    /* margin-top: 0px; */
     font-weight: 600;
 }
 
@@ -345,4 +347,34 @@ body {
     .faq-content p {
         font-size: 1.2rem;
     }
+}
+.logo img {
+    width: 200px;
+    padding-left: 50px;
+
+}
+
+ nav .btn {
+    padding: 8px 12px;
+    padding-bottom: 5px;
+     margin-left: 900px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+nav {
+    display: flex;
+    
+}
+
+nav .btn a {
+    color: #f40612;
+}
+
+.red-line {
+    position: absolute;
+    top: 96%;
+    border-top: 2px solid red;
+
 }
